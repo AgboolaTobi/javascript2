@@ -1,4 +1,4 @@
-const {mapper} = require("./Number2")
+const {mapper} = require("../Number2")
 
 test("test that the value of scores increase by the added number i.e 5", ()=>{
 

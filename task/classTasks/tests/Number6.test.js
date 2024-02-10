@@ -1,4 +1,4 @@
-const {expenseTracker} = require("./Number6");
+const {expenseTracker} = require("../Number6");
 
 test("test that the total amount spent is calculated" ,()=>{
     

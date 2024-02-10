@@ -1,4 +1,4 @@
-const{objectMaker} = require("./Number4")
+const{objectMaker} = require("../Number4")
 
 
 test("test that books are matched to members", ()=>{

@@ -1,4 +1,4 @@
-const {square} = require("./Number3")
+const {square} = require("../Number3")
 
 test("test that the value of scores increase by the added number i.e 5", ()=>{
 
