@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px 32px;
+  height: 80px;
+}
+
+
+.icons li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.icons {
+  padding-right: 130px;
+  padding-top: 10px;
+}
+
+nav button {
+  width: 33%;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 10px;
+  width: 28%;
+}
+.girl-image{
+    background-image: url(../assets/homepageimage.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    height: 100vh;
+    background-position: right;
+    position: relative;
+}

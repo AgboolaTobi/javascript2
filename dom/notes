@@ -1,0 +1,7 @@
+methods to query the html in javascript when dealing with nodes...
+
+1. getElementById()
+2.getElementByClassName()
+3. getElementByTagName()
+4. querySelector()
+5. querySelectorAll()

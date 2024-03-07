@@ -11,5 +11,10 @@ return obj;
 }
 
 
+let members = ["Emily", "Jack","Sophia","Daniel"];
+let books = ["Face Of The Dead", "Dracula", "Love Over all", "Lost In Lust"];
+
+console.log(objectMaker(members, books))
+
 module.exports = {objectMaker}
 

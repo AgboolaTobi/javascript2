@@ -1,0 +1,154 @@
+
+
+body {
+  overflow-x: hidden;
+  margin: auto;
+  padding: auto;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+}
+
+
+.logoText{
+  margin-left: 10px;
+}
+
+.nav {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  height: 10%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 0;
+}
+
+.logo {
+  display: flex;
+  margin-top: 0.5%;
+}
+.logoText {
+  color: #ff2e2e;
+  height: 5px;
+  font-size: 30px;
+  font-weight: 600;
+  list-style: none;
+}
+.logoImage img {
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+}
+
+.header nav ul {
+  display: inline;
+  padding-left: 20px;
+}
+
+.icons {
+  padding-right: 130px;
+  padding-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5%;
+  /* border: 3px solid red; */
+  width: 30%;
+}
+
+.firstButton {
+  background-color: rgb(255, 255, 255);
+  width: 55%;
+  height: 45px;
+  color: #ff2e2e;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.secondContainer {
+  display: flex;
+  z-index: 1;
+}
+
+.secondButton {
+  width: 40%;
+  height: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #ff2e2e;
+  border-radius: 10px;
+  border: #ff2e2e;
+}
+
+.secondDiv {
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 0.01cm;
+}
+.secondfirstholder {
+  width: 40%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.secondDiv h1 {
+  line-height: 0.5;
+}
+
+.paragraphTextDiv p {
+  line-height: 0.01;
+  margin-bottom: 30px;
+}
+
+.applyButton {
+  width: 10%;
+  height: 45px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #ff2e2e;
+  border-radius: 10px;
+  border: #ff2e2e;
+}
+.watchButton {
+  background-color: rgb(255, 255, 255);
+  width: 30%;
+  height: 45px;
+  color: #ff2e2e;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.ladyImage {
+  width: 80%;
+
+  height: 700px;
+}
+
+.thePlayButton {
+  width: -500px;
+  height: -500px;
+  padding: -500px;
+  color: #ff2e2e;
+}
+.links button{
+  border-radius: 8px;
+  width: 30%;
+  height: 40px;
+}
+
+.links button a{
+  text-decoration: none;
+}
